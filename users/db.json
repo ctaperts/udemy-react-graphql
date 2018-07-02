@@ -1,6 +1,11 @@
 {
   "users": [
-    { "id": "23", "firstName": "Ted", "age": 23 },
-    { "id": "24", "firstName": "Alice", "age": 21 }
+    { "id": "23", "firstName": "Ted", "age": 23, "companyId": "1" },
+    { "id": "24", "firstName": "Alice", "age": 21, "companyId": "2" },
+    { "id": "25", "firstName": "Glenda", "age": 22, "companyId": "1" }
+  ],
+  "companies": [
+    { "id": "1", "name": "facespace", "description": "Space of faces" },
+    { "id": "2", "name": "caterpiller", "description": "Apple eaters" }
   ]
 }
